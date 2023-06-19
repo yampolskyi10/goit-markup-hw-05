@@ -646,6 +646,7 @@ background-color: #31d0aa;
   background: var(--ocean);
   border: 1px solid transparent;
   transition: background-color var(--transition);
+  fill: #4D5AE5;
 }
 .footer-btn-icon {
   fill: var(--white);
@@ -771,12 +772,12 @@ background-color: #31d0aa;
 .modal-textarea {
   width: 100%;
   height: 120px;
-  border: 1px solid var(--navy-blue-modal);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px;
   outline: transparent;
-  transition: border-color var(--transition);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
   font-size: 12px;
   line-height: 1.17;
@@ -791,7 +792,7 @@ background-color: #31d0aa;
   columns: var(--navy-blue-modal);
 }
 .modal-textarea:focus {
-  border-color: var(--iris);
+  border-color: #4D5AE5;
 }
 .modal-field-texarea {
   margin-bottom: 16px;
@@ -803,30 +804,30 @@ background-color: #31d0aa;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--lite-slate);
+  color: #8e8f99;
   align-items: center;
 }
 .privacy-label-span {
   width: 16px;
   height: 16px;
-  border: 1px solid var(--navy-blue-modal);
+  border: 1px solid  rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 12px;
   align-items: center;
   justify-content: center;
   fill: transparent;
-  transition: background-color var(--transition), border var(--transition),
-    fill var(--transition);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
   display: inline-flex;
 }
 
 .policy-link {
-  color: var(--iris);
+  color: #4D5AE5;
 }
 .input-check:checked + .check-text span {
-  background-color: var(--ocean);
+  background-color: #404bbf
   border: none;
-  fill: var(--cloud);
+  fill: #F4F4FD;
   border-color: var(--ocean);
 }
 .modal-btn-send {
@@ -836,15 +837,15 @@ background-color: #31d0aa;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);
+  color: #ffffff;
   padding: 16px 0;
-  background: var(--iris);
+  background-color: #4D5AE5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
   min-width: 169px;
   height: 56px;
-  transition: background-color var(--transition);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   margin: 0 auto;
   display: block;
