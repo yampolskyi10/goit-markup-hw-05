@@ -8,6 +8,8 @@
   --footer-color: #F4F4FD;
   --icon: #F4F4FD;
   --link-icons: #8e8f99;
+  --ocean: #404bbf;
+  --cloud: #F4F4FD;
 }
 
 h1,
@@ -784,6 +786,13 @@ background-color: #31d0aa;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
+
+.input-check:checked + .check-text span {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
+ 
+
 .modal-textarea::placeholder {
   font-weight: 400;
   font-size: 12px;
