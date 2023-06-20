@@ -8,6 +8,8 @@
   --footer-color: #F4F4FD;
   --icon: #F4F4FD;
   --iris: #4d5ae5;
+  --green: #31d0aa;
+  --dairy: #fcfcfc;
   --link-icons: #8e8f99;
   --ocean: #404bbf;
   --cloud: #F4F4FD;
@@ -552,7 +554,7 @@ background-color: #31d0aa;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: #f4f4fd;
   max-width: 264px;
 }
 .footer-soc-paragraph {
@@ -560,7 +562,7 @@ background-color: #31d0aa;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--white);
+  color: #ffffff;
   margin-bottom: 16px;
 }
 .footer-soc-block {
